@@ -1,0 +1,24 @@
+/* Placeholders */
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+%background-cover {
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+%btn-reset {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
+}

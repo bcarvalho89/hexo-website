@@ -1,0 +1,80 @@
+/* Header */
+.header {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  padding: 15px 0;
+  width: 100%;
+  z-index: 10;
+  transition: top $cubic 3s;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: .4s $cubic;
+  }
+
+  &::before {
+    top: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: $color--primary;
+    transition-delay: .4s;
+  }
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand {
+
+    .text-swipe::before {
+      color: rgba($color--primary, 0.4);
+    }
+
+    .firstname::before {
+      transition-delay: .3s;
+    }
+
+    .lastname::before {
+      transition-delay: 0s;
+    }
+
+    a {
+      color: $color--white;
+
+      &:hover {
+        text-decoration: none;
+
+        .text-swipe::before {
+          max-width: 100%;
+        }
+
+        .firstname::before {
+          transition-delay: 0s;
+        }
+
+        .lastname::before {
+          transition-delay: .3s;
+        }
+      }
+    }
+  }
+
+  .content-loaded & {
+    top: 0;
+  }
+
+  &.inverted {
+
+    &::before {
+      height: 100%;
+      transition-delay: 0s;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+- name: mdui
+  description: A google plus like theme for Hexo.
+  link: https://github.com/Halyul/hexo-theme-mdui
+  preview: https://blog.halyul.com
+  tags:
+    - material design
+    - mdui
+    - google plus
+    - responsive
+    - gallery
+- name: Vexo
+  description: Vexo is a Hexo theme inspired by Vue's official website.
+  link: https://github.com/yanm1ng/hexo-theme-vexo
+  preview: https://yanm1ng.github.io
+  tags:
+    - responsive
+    - clean
+    - vuejs
+    - elegant
+- name: rexo
+  description: Rexo is a minimally customized theme that supports RTL.
+  link: https://github.com/bluemix/hexo-theme-rexo
+  preview: https://bluemix.github.io
+  tags:
+    - responsive
+    - clean
+    - vuejs
+    - minimal
+    - emojis
+    - multilingual
+    - rtl
+    - arabic
+    - persian
+    - hebrew

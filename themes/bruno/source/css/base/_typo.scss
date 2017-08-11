@@ -1,0 +1,41 @@
+/* Typo */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font--secondary;
+  font-weight: 700;
+}
+
+.brand {
+  font-family: $font--secondary;
+  text-transform: uppercase;
+  margin: 0;
+
+  .firstname {
+    font-weight: 200;
+  }
+
+  .lastname {
+    font-weight: 700;
+  }
+}
+
+.text-swipe {
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 0;
+    color: #fff;
+    white-space: nowrap;
+    transition: max-width .4s ease-in-out;
+  }
+}

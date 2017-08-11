@@ -1,0 +1,8 @@
+pt-br:
+  name: Português
+  disqus_lang: pt-br
+  short: PT
+en:
+  name: English
+  disqus_lang: en
+  short: EN

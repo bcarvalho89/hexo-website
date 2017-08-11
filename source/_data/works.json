@@ -1,0 +1,145 @@
+[{
+  "name": "Work 1",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 2",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 3",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 4",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 5",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 6",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 7",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 8",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 9",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 10",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 11",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}, {
+  "name": "Work 12",
+  "cover": "jofege_mix/cover.jpg",
+  "category": "website",
+  "roles": ["Frond End Developer", "DevOps"],
+  "features": [{
+      "pt": ["estático", "ajax"]
+    },
+    {
+      "en": ["static", "ajax"]
+    }
+  ]
+}]

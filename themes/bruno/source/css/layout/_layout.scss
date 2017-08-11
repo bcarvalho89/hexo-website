@@ -1,0 +1,31 @@
+/* Layout items */
+.section {
+  padding: $spacing-unit  * 4 0;
+
+  .section-intro {
+    text-align: center;
+    margin-bottom: $spacing-unit * 2;
+  }
+
+  .section-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    position: relative;
+    margin-bottom: $spacing-unit * 2;
+    display: inline-block;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      height: 3px;
+      width: 50px;
+      background-color: $accent-color;
+    }
+  }
+
+  .section-description {
+
+  }
+}

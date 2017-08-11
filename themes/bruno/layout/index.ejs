@@ -1,0 +1,48 @@
+<%- partial('partial/intro') %>
+
+<section class="hero" data-speed="15">
+  <div class="phrases">
+    <div class="hide">
+      <% for (phrase in page.phrases) { %>
+        <p><%- page.phrases[phrase] %></p>
+       <% } %>
+    </div>
+    <h2 class="headline"><%- __('misc.iama') %> <span class="type"></span></h2>
+  </div>
+</section>
+
+<!--
+<section class="section" id="portfolio">
+  <div class="container">
+    <div class="section-intro">
+      <h3 class="section-title">{{ translation.portfolio.title }}</h3>
+      <p class="section-description">{{ translation.portfolio.description }}</p>
+    </div>
+    <div class="section-content">
+      <div class="portfolio-list">
+        {% for portfolio in site.data.portfolio limit:6 %}
+        <div class="portfolio-card">
+          <a href="#">
+            <div class="portfolio-image">
+              <img src="{{ site.baseurl }}/assets/imgs/works/{{ portfolio.cover }}" alt="{{ portfolio.name }}" class="portfolio-cover">
+              <span class="see-more" data-text="{{ translation.misc.seemore }}">{{ translation.misc.seemore }}</span>
+            </div>
+            <div class="portfolio-info">
+            <h4 class="portfolio-name">{{ portfolio.name }} - <span class="porfolio-category">{{ portfolio.category }}</span></h4>
+              <h5 class="portfolio-role">{{ translation.misc.role }}
+                {% for role in portfolio.roles %}
+                <span class="badge">{{ role }}</span>
+                {% endfor %}
+              </h5>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="load-more">
+        <button class="btn btn-default trigger-more">{{ translation.misc.more_projects }}</button>
+        <div class="loader"></div>
+      </div>
+    </div>
+  </div>
+</section>-->

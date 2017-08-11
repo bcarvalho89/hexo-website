@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+@import "base/config",
+        "tools/placeholders",
+        "base/normalize",
+				"base/fonts",
+        "base/typo",
+        "base/base",
+        "layout/layout";
+
+@import "layout/header",
+        "layout/footer";
+
+@import "components/navigation",
+        "components/buttons",
+        "components/lang-switcher",
+        "components/hero",
+        "components/portfolio-card",
+        "components/social-links",
+        "components/intro",
+        "components/loaders",
+        "components/badge";
+
+@import "pages/homepage";

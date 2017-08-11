@@ -1,0 +1,49 @@
+/* Footer */
+.footer {
+  color: $color--text-alternate;
+
+  .contact {
+    padding: $spacing-unit * 2 $spacing-unit / 2;
+    background-color: $primary-color-light;
+  }
+
+  .copy {
+    padding: $spacing-unit / 2;
+    background-color: $color--primary;
+    font-size: $small-font-size;
+
+    .fa {
+      color: $red;
+      font-size: 1.5rem;
+      margin: 0 8px;
+      vertical-align: middle;
+      animation: heartbeat 2s infinite;
+    }
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale( .75 );
+  }
+
+  20% {
+    transform: scale( 1 );
+  }
+
+  40% {
+    transform: scale( .75 );
+  }
+
+  60% {
+    transform: scale( 1 );
+  }
+
+  80% {
+    transform: scale( .75 );
+  }
+
+  100% {
+    transform: scale( .75 );
+  }
+}

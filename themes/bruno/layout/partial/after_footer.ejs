@@ -1,0 +1,22 @@
+<!-- Scripts -->
+<%- js('js/counter') %>
+
+<script>
+  var baseURL = '<%- config.url + config.root %>';
+  var counter = new Counter();
+  setTimeout(function(){
+    document.querySelector('.intro').classList.add('preload');
+  }, 1000);
+  counter.start();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- build:js build/js/plugins.js -->
+<%- js('js/plugins') %>
+<!-- endbuild -->
+
+<!-- build:js build/js/main.js -->
+<%- js('js/main') %>
+<%- js('js/langSelect') %>
+<!-- endbuild -->

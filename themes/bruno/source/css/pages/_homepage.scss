@@ -1,0 +1,42 @@
+/* Homepage */
+body.page-homepage {
+  background-color: $color--primary;
+  color: $color--text-alternate;
+  overflow: hidden;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  > div {
+    opacity: 1;
+    transform: translateY(0);
+    transition: .4s ease-in-out;
+  }
+
+  > div.hide:nth-last-child(-n+3) {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+}
+
+.load-more {
+  text-align: center;
+  margin-top: $spacing-unit * 2;
+  position: relative;
+
+  .loader {
+    position: absolute;
+    margin-left: $spacing-unit;
+    top: 12px;
+    opacity: 0;
+    transition: .2s;
+
+    &.loading {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<ul class="lang-switcher">
+  <% for (lang in site.data.languages) { %>
+    <li class="<%- lang %> <% if (page.lang === lang) {%> selected<% } %>">
+    <%
+      var canonical = canonical_path_for_nav();
+      var langLink;
+      if (lang === 'pt-br') {
+        langLink = '/' + canonical;
+      } else {
+        langLink = '/' + lang + canonical;
+      }
+    %>
+      <a href="<%- langLink %>"><%- site.data.languages[lang].short %></a>
+    </li>
+  <% } %>
+</ul>

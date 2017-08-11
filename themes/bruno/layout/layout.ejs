@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="<%- page.lang %>">
+
+  <%- partial('partial/head') %>
+
+  <body class="page--<%- page.name %>">
+
+    <main class="page-content" aria-label="Content">
+      <%- partial('partial/header') %>
+      <%- body %>
+      <%- partial('partial/footer') %>
+    </main>
+
+    <%- partial('partial/after_footer') %>
+
+  </body>
+</html>
+

@@ -1,0 +1,9 @@
+<ul class="social-links">
+  <% for (item in theme.social) { %>
+  <li><a href="<%= theme.social[item] %>" target="_blank">
+    <span class="face face-back">
+      <i class="fa fa-<%= item %>"></i>
+    </span>
+  </a></li>
+  <% } %>
+</ul>
